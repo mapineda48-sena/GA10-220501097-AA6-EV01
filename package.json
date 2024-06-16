@@ -1,0 +1,19 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "A landing page template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d ."
+  },
+  "homepage": "https://<tu-usuario-github>.github.io/<nombre-del-repositorio>",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "gh-pages": "^6.1.1"
+  }
+}
